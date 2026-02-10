@@ -1,0 +1,46 @@
+---
+layout: default
+title: Rústico Pesca – Dicas, Equipamentos e Ofertas
+description: Conteúdo sobre pesca esportiva, equipamentos testados e ofertas confiáveis da Shopee, Mercado Livre e AliExpress.
+---
+
+<section>
+  <h1>Rústico Pesca</h1>
+
+  <p>
+    Aqui você encontra <strong>dicas de pesca esportiva</strong>, 
+    avaliações de <strong>equipamentos testados na prática</strong> 
+    e <strong>ofertas confiáveis</strong> das principais lojas online.
+  </p>
+
+  <p>
+    Todo o conteúdo é baseado em experiência real, focado principalmente
+    na pesca da <strong>traíra</strong>.
+  </p>
+
+  <a class="btn-afiliado" href="/ofertas">
+    Ver ofertas em equipamentos de pesca
+  </a>
+</section>
+
+<section>
+  <h2>Conteúdos principais</h2>
+
+  <ul>
+    <li><a href="/pesca/varas">Melhores varas de pesca</a></li>
+    <li><a href="/pesca/molinetes">Molinetes custo-benefício</a></li>
+    <li><a href="/pesca/iscas">Iscas que funcionam de verdade</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Últimos conteúdos</h2>
+
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

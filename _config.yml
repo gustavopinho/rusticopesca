@@ -1,0 +1,10 @@
+title: Rústico Pesca
+description: Dicas de pesca, equipamentos testados e links confiáveis da Shopee, Mercado Livre e AliExpress.
+url: https://seusite.github.io
+lang: pt-BR
+
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-sitemap
